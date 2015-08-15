@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E534B611B7EE40800392DFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E534B601B7EE40800392DFC /* main.m */; };
+		8E534B641B7EE40800392DFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E534B631B7EE40800392DFC /* AppDelegate.m */; };
+		8E534B671B7EE40800392DFC /* HueBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E534B651B7EE40800392DFC /* HueBook.xcdatamodeld */; };
+		8E534B6A1B7EE40800392DFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E534B691B7EE40800392DFC /* ViewController.m */; };
+		8E534B6D1B7EE40800392DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E534B6B1B7EE40800392DFC /* Main.storyboard */; };
+		8E534B6F1B7EE40800392DFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E534B6E1B7EE40800392DFC /* Images.xcassets */; };
+		8E534B721B7EE40800392DFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E534B701B7EE40800392DFC /* LaunchScreen.xib */; };
+		8E534B7E1B7EE40800392DFC /* HueBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E534B7D1B7EE40800392DFC /* HueBookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E534B781B7EE40800392DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E534B531B7EE40800392DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E534B5A1B7EE40800392DFC;
+			remoteInfo = HueBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E534B5B1B7EE40800392DFC /* HueBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E534B5F1B7EE40800392DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E534B601B7EE40800392DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E534B621B7EE40800392DFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E534B631B7EE40800392DFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E534B661B7EE40800392DFC /* HueBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HueBook.xcdatamodel; sourceTree = "<group>"; };
+		8E534B681B7EE40800392DFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E534B691B7EE40800392DFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E534B6C1B7EE40800392DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E534B6E1B7EE40800392DFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E534B711B7EE40800392DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8E534B771B7EE40800392DFC /* HueBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HueBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E534B7C1B7EE40800392DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E534B7D1B7EE40800392DFC /* HueBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HueBookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E534B581B7EE40800392DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E534B741B7EE40800392DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E534B521B7EE40800392DFC = {
+			isa = PBXGroup;
+			children = (
+				8E534B5D1B7EE40800392DFC /* HueBook */,
+				8E534B7A1B7EE40800392DFC /* HueBookTests */,
+				8E534B5C1B7EE40800392DFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E534B5C1B7EE40800392DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E534B5B1B7EE40800392DFC /* HueBook.app */,
+				8E534B771B7EE40800392DFC /* HueBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E534B5D1B7EE40800392DFC /* HueBook */ = {
+			isa = PBXGroup;
+			children = (
+				8E534B621B7EE40800392DFC /* AppDelegate.h */,
+				8E534B631B7EE40800392DFC /* AppDelegate.m */,
+				8E534B681B7EE40800392DFC /* ViewController.h */,
+				8E534B691B7EE40800392DFC /* ViewController.m */,
+				8E534B6B1B7EE40800392DFC /* Main.storyboard */,
+				8E534B6E1B7EE40800392DFC /* Images.xcassets */,
+				8E534B701B7EE40800392DFC /* LaunchScreen.xib */,
+				8E534B651B7EE40800392DFC /* HueBook.xcdatamodeld */,
+				8E534B5E1B7EE40800392DFC /* Supporting Files */,
+			);
+			path = HueBook;
+			sourceTree = "<group>";
+		};
+		8E534B5E1B7EE40800392DFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E534B5F1B7EE40800392DFC /* Info.plist */,
+				8E534B601B7EE40800392DFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E534B7A1B7EE40800392DFC /* HueBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E534B7D1B7EE40800392DFC /* HueBookTests.m */,
+				8E534B7B1B7EE40800392DFC /* Supporting Files */,
+			);
+			path = HueBookTests;
+			sourceTree = "<group>";
+		};
+		8E534B7B1B7EE40800392DFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E534B7C1B7EE40800392DFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E534B5A1B7EE40800392DFC /* HueBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E534B811B7EE40800392DFC /* Build configuration list for PBXNativeTarget "HueBook" */;
+			buildPhases = (
+				8E534B571B7EE40800392DFC /* Sources */,
+				8E534B581B7EE40800392DFC /* Frameworks */,
+				8E534B591B7EE40800392DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HueBook;
+			productName = HueBook;
+			productReference = 8E534B5B1B7EE40800392DFC /* HueBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E534B761B7EE40800392DFC /* HueBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E534B841B7EE40800392DFC /* Build configuration list for PBXNativeTarget "HueBookTests" */;
+			buildPhases = (
+				8E534B731B7EE40800392DFC /* Sources */,
+				8E534B741B7EE40800392DFC /* Frameworks */,
+				8E534B751B7EE40800392DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E534B791B7EE40800392DFC /* PBXTargetDependency */,
+			);
+			name = HueBookTests;
+			productName = HueBookTests;
+			productReference = 8E534B771B7EE40800392DFC /* HueBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E534B531B7EE40800392DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Li Wang";
+				TargetAttributes = {
+					8E534B5A1B7EE40800392DFC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8E534B761B7EE40800392DFC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8E534B5A1B7EE40800392DFC;
+					};
+				};
+			};
+			buildConfigurationList = 8E534B561B7EE40800392DFC /* Build configuration list for PBXProject "HueBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E534B521B7EE40800392DFC;
+			productRefGroup = 8E534B5C1B7EE40800392DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E534B5A1B7EE40800392DFC /* HueBook */,
+				8E534B761B7EE40800392DFC /* HueBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E534B591B7EE40800392DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E534B6D1B7EE40800392DFC /* Main.storyboard in Resources */,
+				8E534B721B7EE40800392DFC /* LaunchScreen.xib in Resources */,
+				8E534B6F1B7EE40800392DFC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E534B751B7EE40800392DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E534B571B7EE40800392DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E534B641B7EE40800392DFC /* AppDelegate.m in Sources */,
+				8E534B611B7EE40800392DFC /* main.m in Sources */,
+				8E534B6A1B7EE40800392DFC /* ViewController.m in Sources */,
+				8E534B671B7EE40800392DFC /* HueBook.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E534B731B7EE40800392DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E534B7E1B7EE40800392DFC /* HueBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E534B791B7EE40800392DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E534B5A1B7EE40800392DFC /* HueBook */;
+			targetProxy = 8E534B781B7EE40800392DFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E534B6B1B7EE40800392DFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E534B6C1B7EE40800392DFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E534B701B7EE40800392DFC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E534B711B7EE40800392DFC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E534B7F1B7EE40800392DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E534B801B7EE40800392DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E534B821B7EE40800392DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HueBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E534B831B7EE40800392DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HueBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E534B851B7EE40800392DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HueBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HueBook.app/HueBook";
+			};
+			name = Debug;
+		};
+		8E534B861B7EE40800392DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HueBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HueBook.app/HueBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E534B561B7EE40800392DFC /* Build configuration list for PBXProject "HueBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E534B7F1B7EE40800392DFC /* Debug */,
+				8E534B801B7EE40800392DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E534B811B7EE40800392DFC /* Build configuration list for PBXNativeTarget "HueBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E534B821B7EE40800392DFC /* Debug */,
+				8E534B831B7EE40800392DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E534B841B7EE40800392DFC /* Build configuration list for PBXNativeTarget "HueBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E534B851B7EE40800392DFC /* Debug */,
+				8E534B861B7EE40800392DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E534B651B7EE40800392DFC /* HueBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E534B661B7EE40800392DFC /* HueBook.xcdatamodel */,
+			);
+			currentVersion = 8E534B661B7EE40800392DFC /* HueBook.xcdatamodel */;
+			path = HueBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E534B531B7EE40800392DFC /* Project object */;
+}
