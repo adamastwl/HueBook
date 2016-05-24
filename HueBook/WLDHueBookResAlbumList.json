@@ -1,0 +1,34 @@
+{
+  "10-100":{
+    "displayName":"Floral",
+    "snapshotPath":"Floral_Snapshot.png",
+    "description":"Floral patterns are the best thing to color!",
+    "categoryID":10,
+    “albumID":100,
+    “purchaseID”:”Free”
+  },
+  "10-101":{
+    "displayName":"Animal",
+    "snapshotPath":"Animal_Snapshot.png",
+    "description":"Floral in animal outline.",
+    "categoryID":10,
+    “albumID":101,
+    “purchaseID”:”Free”
+  },
+  "11-100":{
+    "displayName":"Robot",
+    "snapshotPath":"Robot_Snapshot.png",
+    "description":"All kinds of robots!",
+    "categoryID":11,
+    “albumID":100,
+    “purchaseID”:”Free”
+  },
+  "11-101":{
+    "displayName":"Weapon",
+    "snapshotPath":"Weapon_Snapshot.png",
+    "description":"Great weapons...",
+    "categoryID":11,
+    “albumID":101,
+    “purchaseID”:”Free”
+  }
+}

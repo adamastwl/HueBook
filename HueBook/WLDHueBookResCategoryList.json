@@ -1,0 +1,10 @@
+{
+  "10":{
+    "displayName":"Classic",
+    "snapshotPath":"Classic_Snapshot.png"
+  },
+  "11":{
+    "displayName":"Technic",
+    "snapshotPath":"Technic_Snapshot.png"
+  }
+}

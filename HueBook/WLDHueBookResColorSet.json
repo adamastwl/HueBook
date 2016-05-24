@@ -1,0 +1,56 @@
+{
+  "1000":{
+    "displayName":"Default 1",
+    "colorSetID":1000,
+    "color1":{"red":0.4313, "green":0.4313, "blue":0.4313},
+    "color2":{"red":0.255, "green":0.255, "blue":0.255},
+    "color3":{"red":0.07, "green":0.07, "blue":0.07},
+    "color4":{"red":0.4275, "green":0.251, "blue":0.1725},
+    "color5":{"red":0.53, "green":0.1216, "blue":0.1255}
+  },
+  "1001":{
+    "displayName":"Default 2",
+    "colorSetID":1001,
+    "color1":{"red":0.694, "green":0.2784, "blue":0.2078},
+    "color2":{"red":0.8667, "green":0.455, "blue":0.5098},
+    "color3":{"red":0.6157, "green":0.27, "blue":0.1333},
+    "color4":{"red":0.5098, "green":0.5608, "blue":0.0},
+    "color5":{"red":0.3176, "green":0.353, "blue":0.1569}
+  },
+  "1002":{
+    "displayName":"Default 3",
+    "colorSetID":1002,
+    "color1":{"red":0.055, "green":0.33, "blue":0.1059},
+    "color2":{"red":0.01, "green":0.44, "blue":0.1765},
+    "color3":{"red":0.24, "green":0.635, "blue":0.2627},
+    "color4":{"red":0.42, "green":0.7, "blue":0.3},
+    "color5":{"red":0.1725, "green":0.647, "blue":0.5059}
+  },
+  "1003":{
+    "displayName":"Default 4",
+    "colorSetID":1003,
+    "color1":{"red":0.1412, "green":0.451, "blue":0.588},
+    "color2":{"red":0.1098, "green":0.3765, "blue":0.4353},
+    "color3":{"red":0.1098, "green":0.2745, "blue":0.5333},
+    "color4":{"red":0.0902, "green":0.2078, "blue":0.4667},
+    "color5":{"red":0.1725, "green":0.1569, "blue":0.353}
+  },
+  "1004":{
+    "displayName":"Default 5",
+    "colorSetID":1004,
+    "color1":{"red":0.67, "green":0.0314, "blue":0.4314},
+    "color2":{"red":0.745, "green":0.2627, "blue":0.5373},
+    "color3":{"red":0.796, "green":0.2588, "blue":0.4275},
+    "color4":{"red":0.4275, "green":0.251, "blue":0.1725},
+    "color5":{"red":0.596, "green":0.098, "blue":0.2313}
+  },
+  "1005":{
+    "displayName":"Default 6",
+    "colorSetID":1005,
+    "color1":{"red":0.7725, "green":0.0863, "blue":0.1647},
+    "color2":{"red":0.8157, "green":0.4078, "blue":0.0863},
+    "color3":{"red":0.8784, "green":0.6353, "blue":0.0},
+    "color4":{"red":0.8824, "green":0.8275, "blue":0.0},
+    "color5":{"red":0.8431, "green":0.8431, "blue":0.8431}
+  }
+}
